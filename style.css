@@ -1,0 +1,582 @@
+/* font face css start */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/* font face css end */
+
+/* default css start */
+
+
+:root {
+    --yellow: #fff04b;
+    --lightBlue: #d6e5f3;
+    --deepBlue: #00234b;
+    --skyBlue: #4a90e2;
+    --skyDeep: #32c7f0;
+    --darkerBlue: #000024;
+    --gray: #9999A7;
+    --light: #ffffff99;
+    --white: #fff;
+    --offwhite: #f7f7f7;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: var(--deepBlue);
+    font-weight: 400;
+}
+
+/* default css end */
+
+/* header css start */
+
+header {
+    background: var(--lightBlue);
+}
+
+header .dropdown-menu {
+    width: 14rem;
+}
+
+.header-menu .nav-item .nav-link {
+    color: var(--deepBlue);
+    font-size: 14px;
+}
+
+.header-text h1 {
+    font-size: 72px;
+    color: var(--deepBlue);
+    font-weight: 900;
+}
+
+/* header css end */
+
+/* appoint css start */
+.available {
+    background: var(--skyBlue);
+    padding: 3px 8px;
+}
+
+.available span {
+    color: var(--white);
+    font-size: 14px;
+}
+
+.app-bg {
+    background: var(--offwhite);
+}
+
+.available-content h1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.available-content p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.available-button {}
+
+.available-button a {
+    border: 2px solid var(--deepBlue);
+    font-size: 13px;
+    font-weight: 900;
+    padding: 12px 15px;
+    border-radius: 5px;
+    transition: .25s;
+}
+
+.available-button a:hover {
+    color: var(--white);
+    background: var(--deepBlue);
+}
+
+/* appoint css end */
+
+/* special css start */
+.specialties h1 {
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
+
+.special .card img {
+    width: 125px;
+    margin: auto;
+}
+
+.special .card-text {
+    font-size: 17px;
+}
+
+.special:hover {
+    box-shadow: 0 0 2px var(--gray);
+}
+
+/* special css end */
+
+/* reviews css start */
+.reviews {
+    background: var(--offwhite);
+    padding-bottom: 10px;
+}
+
+.reviews-text h1 {
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.reviews-card {
+    text-align: center;
+}
+
+.reviews-card img {}
+
+.reviews-card h2 {
+    font-weight: 900;
+    font-size: 24px;
+    width: 260px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1.1rem;
+}
+
+.reviews-card a {
+    border: 2px solid var(--deepBlue);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 5px;
+    transition: .25s;
+}
+
+.reviews-card a:hover {
+    color: var(--white);
+    background: var(--deepBlue);
+}
+
+/* reviews css end */
+
+/* app css start */
+.app {
+    background: var(--lightBlue);
+}
+
+.app-content {}
+
+.app-content h1 {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 30px;
+}
+
+.app-content p {
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 370px;
+}
+
+.app-content h5 {
+    font-size: 12px;
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.app-content input[type=tel] {
+    padding: 12px 20px;
+}
+
+.app-content button {
+    padding: 12px 15px;
+    background: var(--yellow);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* app css end */
+
+/* patients css start */
+.patients {
+    background: var(--offwhite);
+}
+
+.patients-content {
+    margin-left: 4rem;
+}
+
+.patients-content h5 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.patients-content h1 {
+    font-weight: 900;
+    font-size: 36px;
+    margin: 25px 0 40px;
+}
+
+.patients-content ul {
+    padding-left: 20px;
+}
+
+.patients-content ul li {
+    font-size: 18px;
+}
+
+.patients-content a {
+    background: var(--yellow);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+
+.patients-content a:hover,
+.system-content a:hover,
+.job-content a:hover {
+    box-shadow: 0 0 3px var(--gray);
+}
+
+/* patients css end */
+
+/* systems css start */
+.system-content {}
+
+.system-content h1 {
+    font-weight: 900;
+    font-size: 32px;
+    margin: 25px 0;
+}
+
+.system-content h5 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.system-content a {
+    background: var(--yellow);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+
+/* systems css end */
+
+/* find css start */
+.find {
+    background: var(--offwhite);
+    padding: 80px 0;
+}
+
+/* find css end */
+
+/* jobs css start */
+.jobs,
+.reasons {
+    background: var(--offwhite);
+}
+
+.job {
+    background: var(--white);
+}
+
+.job-content {}
+
+.job-content h5 {
+    font-weight: bold;
+}
+
+.job-content h1 {
+    font-weight: 900;
+    margin: 25px 0;
+}
+
+.job-content a {
+    background: var(--yellow);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+
+/* jobs css end */
+
+/* upper-footer css start */
+.upper-footer {
+    background: var(--deepBlue);
+
+}
+
+.zocdoc h5 {
+    color: var(--white);
+    font-size: 14px;
+}
+
+.zocdoc ul li a {
+    color: var(--light);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.zocdoc ul li a:hover {
+    color: var(--white);
+}
+
+/* upper-footer css end */
+/* footer css start */
+footer {
+    background: var(--darkerBlue);
+    color: var(--white);
+}
+
+.copyright span {
+    color: var(--white);
+}
+
+.footer-menu ul li a {
+    color: var(--light);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-menu ul li a:hover {
+    color: var(--white);
+}
+
+.social-icons ul li a {
+    color: var(--light);
+    font-size: 22px;
+}
+
+/* footer css end */
+
+/* userpage css */
+.user-header {
+    background: var(--yellow);
+}
+
+.user-header .navbar-brand {
+    font-weight: 900;
+}
+
+/* join page css */
+.patients {
+    background: var(--lightBlue);
+}
+
+.patients-content {}
+
+.patients-content h1 {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.patients-content p {
+    font-size: 24px;
+    width: 90%;
+}
+
+.patients-content img {
+    max-width: 80%;
+}
+
+.patients-form {
+    background: var(--white);
+    padding: 40px;
+}
+
+.patients-form form {}
+
+.patients-form form h2 {
+    font-size: 24px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+.patients-form form p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* providers css */
+.providers {
+    padding-top: 80px;
+}
+
+.providers .pro-title {
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.pro-content {
+    margin-left: 6rem;
+}
+
+.pro-content h1 {
+    font-size: 28px;
+    font-weight: 900;
+    width: 80%;
+}
+
+
+.pro-content p {
+    font-size: 21px;
+    width: 75%;
+}
+
+.providers-bottom {
+    padding: 80px 0 60px;
+    background: var(--offwhite);
+}
+
+.providers-bottom h1,
+.thrive h1 {
+    font-weight: 900;
+}
+
+.providers-bottom-card {
+    padding-bottom: 50px;
+}
+
+.providers-bottom-card img {}
+
+.providers-bottom-card h3 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.providers-bottom-card p {
+    width: 90%;
+    margin: auto;
+}
+
+.providers-bottom .container {
+    max-width: 900px;
+}
+
+/*thrive css start*/
+.thrive {
+    background: var(--lightBlue);
+    padding: 80px 0;
+}
+
+.thrive-card {
+    background: var(--white);
+    box-shadow: 0 0 4px var(--gray);
+    border-radius: 5px;
+    padding: 40px 10px;
+}
+
+.thrive-card h3 {
+    font-size: 18px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.thrive-card h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.thrive-card p {
+    width: 74%;
+    margin: auto;
+}
+
+/*contact page*/
+
+/*header part*/
+.contact-header {
+    background: var(--yellow);
+}
+
+.contact-header .btn-custom {
+    border: 2px solid var(--deepBlue);
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.contact-header .btn-custom:hover {
+    background: var(--deepBlue);
+    color: var(--white);
+}
+
+.contact-us {
+    background: #ffb4c8;
+}
+
+.contact-title {}
+
+.contact-title h1 {
+    font-weight: 900;
+    font-size: 80px;
+    padding-top: 60px;
+}
+
+.office .office-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.office .office-title a {
+    color: #62d5f6;
+}
+
+.office-tilte2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.office-content h5 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.office-content ul li {
+    font-weight: bold;
+}
+
+.office-content {
+    padding-bottom: 35px;
+}
+
+/*about page*/
+
+/*picture css*/
+
+.picture {
+    background: url(images/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: right bottom;
+    padding: 100px 0px;
+}
+
+.pic-content h1 {
+    font-size: 80px;
+    font-weight: 900;
+    width: 90%;
+    padding: 200px 0;
+}
+
+.c-img {
+    position: relative;
+}
+
+.pic-content p {
+    font-size: 20px;
+    font-weight: bold;
+    width: 32%;
+    position: absolute;
+    left: 10%;
+    bottom: -70%;
+}
